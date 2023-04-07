@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+
+
+
+#hero{
+    background-image:url('../images/desktop/image-hero.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
+@media(max-width:576px){
+    #hero{
+        background-image:url('../images/mobile/image-hero.jpg');
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+}
