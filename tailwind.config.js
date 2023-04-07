@@ -14,7 +14,7 @@ module.exports = {
         alata:['Alata'],
       },
       letterSpacing:{
-        widest:'0.5em'
+        widest:'.3em'
       }
     },
   },
