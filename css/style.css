@@ -1082,7 +1082,7 @@ video {
   height:2px;
   background:#fff;
   bottom:5px;
-  right:7px;
+  left:7px;
   width:35px;
   transition:width 0.5s;
 }
@@ -1110,11 +1110,6 @@ video {
 .group:hover .group-hover\:border-blue-50 {
   --tw-border-opacity: 1;
   border-color: rgb(239 246 255 / var(--tw-border-opacity));
-}
-
-.group:hover .group-hover\:border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 @media (min-width: 767px) {
