@@ -68,7 +68,7 @@
     cursor:pointer;
     width:24px;
     height:24px;
-    transition:all 0.25s;
+    transition:all 0.5s;
     position:relative;
     z-index:50;
 
@@ -116,6 +116,22 @@
 .open .hamburger-middle {
     display:none;
 }
+
+
+
+
+.underlined{
+    position:absolute;
+    height:2px;
+    background:#fff;
+    bottom:5px;
+    right:7px;
+    width:35px;
+    transition:width 0.5s;
+   
+}
+
+
 
 
 
